@@ -40,26 +40,47 @@ nav a{
     font-weight: regular;
 }
 
-/*.presentation{
+.presentation{
     display: flex;
-    width: 538px;
-    height: 247px;
-    flex-direction: column;
-    gap: 10px;
-    margin: 201px auto auto 180px;
-}
-
-.presentation span{
-    width: 307px;
-    height: 63px;
+    flex-direction: row;
+    gap: 80px;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    margin: 100px auto;
+    width: 100%;
 }
+
 .presentation h1{
     font-family: "Raleway", sans-serif;
 }
 .presentation p{
     font-family: "IBM Plex Mono", monospace;
-    color: #9C9C9C;    
-}*/
+    color: #9C9C9C;
+    margin-top: 20px;    
+}
+
+.presentation img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.division{
+    width: 530px;
+    height: 100%;
+}
+ span{
+    display: flex;
+    width: 307px;
+    height: 63px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #62BA1B;
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px 5px rgba(63, 142, 0, 0.2);
+    }
